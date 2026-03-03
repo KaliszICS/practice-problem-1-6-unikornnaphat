@@ -11,6 +11,7 @@ public class PracticeProblem {
 		q4();
 		q5();
 		q6();
+		scanner.close();
 	}
 
 	public static void q1() {
@@ -27,6 +28,7 @@ public class PracticeProblem {
 	}
 
 	public static void q3() {
+		scanner.nextLine();
 		System.out.print("Input pizza: ");
         String word = scanner.next();
         boolean result = word.equals("pizza");
@@ -48,6 +50,7 @@ public class PracticeProblem {
 	}
 
 	public static void q6() {
+		scanner.nextLine();
         System.out.print("Input a word earlier than google: ");
         String word = scanner.next();
         boolean result = word.compareTo("google") < 0;
