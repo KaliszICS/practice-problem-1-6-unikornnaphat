@@ -11,13 +11,13 @@ public class PracticeProblem {
 		q4();
 		q5();
 		q6();
-		scanner.close();
 	}
 
 	public static void q1() {
 		System.out.print("Input a boolean: ");
         boolean b = scanner.nextBoolean();
         System.out.println(b);
+		scanner.close();
 	}
 
 	public static void q2() {
@@ -25,6 +25,7 @@ public class PracticeProblem {
         int num = scanner.nextInt();
         boolean result = num > 5;
         System.out.println(result);
+		scanner.close();
 	}
 
 	public static void q3() {
@@ -33,6 +34,7 @@ public class PracticeProblem {
         String word = scanner.next();
         boolean result = word.equals("pizza");
         System.out.println(result);
+		scanner.close();
 	}
 
 	public static void q4() {
@@ -40,6 +42,7 @@ public class PracticeProblem {
         double num = scanner.nextDouble();
         boolean result = num == 0;
         System.out.println(result);
+		scanner.close();
 	}
 
 	public static void q5() {
@@ -47,6 +50,7 @@ public class PracticeProblem {
         int num = scanner.nextInt();
         boolean result = num != 0;
         System.out.println(result);
+		scanner.close();
 	}
 
 	public static void q6() {
@@ -55,6 +59,7 @@ public class PracticeProblem {
         String word = scanner.next();
         boolean result = word.compareTo("google") < 0;
         System.out.println(result);
+		scanner.close();
 	}
 
 }
